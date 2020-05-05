@@ -1,0 +1,94 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url("/imagenes/Caricatura\ de\ Hellboy_xtrafondos.com.jpg");
+    opacity: 30%; 
+}
+header
+{
+    width: 900px;
+    height: 200px;
+    background-color: chocolate;
+    margin: 0 auto;
+}
+.logo
+{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    float: left;
+}
+.titulo
+{
+    width: 700px;
+    height: 200px;
+    background-color: blueviolet;
+    float: left;
+}
+nav{
+    width: 900px;
+    height: 50px; 
+    margin: 0 auto;
+}
+main{
+    width: 900px ;
+    height: 500;
+    background-color: yellow;
+    margin: 0 auto;
+}
+.caja
+{
+    width: 700px;
+    height: 500px;
+    background-color: darkgreen;
+    margin: 0 auto;
+    float: left;
+}
+aside
+{
+    width: 200px;
+    height: 500px;
+    background-color: darkred;
+    margin: 0 auto;
+    float: left;
+}
+footer
+{
+    width: 900px;
+    height: 550px;
+    background-color: black;
+    margin: 0 auto;
+}
+h1{
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Monoton', cursive;
+    font-family: 'Monofett', cursive;
+    
+}
+nav a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 18px;
+}
+nav li{
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+    position: relative;
+    font-family: 'Monofett', cursive;
+}
+nav li:hover
+{
+    
+    background-color:red;
+    color: greenyellow;
+}
